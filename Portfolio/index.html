@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>My Portfolio</h1>
+    <p>Welcome to my Lab Activities!</p>
+</header>
+
+<!-- BIO FIRST -->
+<section class="bio">
+    <h2>Biodata</h2>
+
+    <div class="bio-grid">
+
+        <!-- LEFT COLUMN -->
+        <div>
+            <p><strong>Name:</strong> Jassieferl A. Baylon</p>
+            <p><strong>Program:</strong> Bachelor of Science in Information Technology</p>
+            <p><strong>Section:</strong> 2-C</p>
+            <p><strong>Course:</strong> IT223 – Web Systems and Technologies</p>
+            <p><strong>Instructor:</strong> Ray An Quiñon</p>
+        </div>
+
+        <!-- RIGHT COLUMN -->
+        <div>
+            <p>
+                <strong>Email:</strong>
+                <a href="mailto:baylon.jassieferl06@gmail.com">
+                    baylon.jassieferl06@gmail.com
+                </a>
+            </p>
+
+            <p>
+                <strong>GitHub:</strong>
+                <a href="https://github.com/jassil606" target="_blank">
+                    github.com/jassil606
+                </a>
+            </p>
+
+            <p><strong>Skills:</strong> HTML, CSS, JavaScript</p>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- LABS SECOND -->
+<section class="labs-section">
+    <h2>My Lab Activities</h2>
+
+    <div class="labs">
+
+        <div class="card">
+            <h3>Lab 1</h3>
+            <p>IT223_BAYLON Activity</p>
+            <button onclick="openLab('IT223_BAYLON/index.html')">
+                Open Lab 1
+            </button>
+        </div>
+
+        <div class="card">
+            <h3>Lab 2</h3>
+            <p>Profile Card Project</p>
+            <button onclick="openLab('profile-card_Baylon/index.html')">
+                Open Lab 2
+            </button>
+        </div>
+
+        <div class="card">
+            <h3>Lab 3</h3>
+            <p>To Do List Application</p>
+            <button onclick="openLab('ToDoListLab/index.html')">
+                Open Lab 3
+            </button>
+        </div>
+
+    </div>
+</section>
+
+<!-- EXPLORE -->
+<section class="explore">
+    <h2>Explore</h2>
+    <button onclick="showMessage()">
+        Explore Project
+    </button>
+</section>
+
+<footer>
+    <p>© 2026 Jassieferl A. Baylon</p>
+    <p>BSIT - 2C | IT223</p>
+    <p>USTP Oroquieta Campus</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
